@@ -1,6 +1,6 @@
 {
-  "requiredSdkVersion": "~0.0.73",
-  "name": "<plugin-name>",
-  "javascriptEntrypointUrl": "<plugin-name>.js",
-  "localesBaseUrl": "locales"
+  "requiredSdkVersion": "~0.0.91",
+  "version": "0.0.1",
+  "name": "BbbPluginReactionStack",
+  "javascriptEntrypointUrl": "BbbPluginReactionStack.js"
 }

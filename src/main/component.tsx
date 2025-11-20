@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { BbbPluginSdk, PluginApi } from 'bigbluebutton-html-plugin-sdk';
+import ReactionStack from '../components/stack/component';
 
 interface MainComponentProps {
   pluginUuid: string;
@@ -12,9 +13,9 @@ function MainComponent(
   BbbPluginSdk.initialize(uuid);
   const pluginApi: PluginApi = BbbPluginSdk.getPluginApi(uuid);
 
-  console.log('Hello world', pluginApi);
-
-  return null;
+  return (
+    <ReactionStack pluginApi={pluginApi} />
+  );
 }
 
 export default MainComponent;

@@ -5,8 +5,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: '<plugin-name>.js',
-    library: '<plugin-name>',
+    filename: 'BbbPluginReactionStack.js',
+    library: 'BbbPluginReactionStack',
     libraryTarget: 'umd',
     publicPath: '/',
     globalObject: 'this',
